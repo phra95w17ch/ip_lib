@@ -9,7 +9,7 @@ def valid_ip(ip_addr):
     octets = []
 
     if len(src_octets) != 4:
-        return (False, "oooops, you do not have 4 octets - try again!")
+        return (False, "Oooops, you do not have 4 octets - try again!")
 
     for octet in src_octets:
         try:
